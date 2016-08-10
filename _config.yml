@@ -23,3 +23,7 @@ dribbble_username:     # Replace this with your Dribbble username
 
 # Build settings
 markdown: kramdown
+
+collections: 
+  poetry:
+    output: true
