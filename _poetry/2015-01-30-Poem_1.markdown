@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: poetry
 ---
 
 <img src="/images/fulls/02.jpg" class="fit image">
