@@ -787,6 +787,7 @@
 
 	#header {
 		background-color: black;
+        background-image: url(images/header_1.jpg);
 		background-attachment: scroll,								fixed;
 		background-position: top left,							top left;
 		background-repeat: no-repeat,								no-repeat;
