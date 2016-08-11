@@ -833,7 +833,7 @@
 
 		#header a:hover {color: yellow;}
 
-		#header p {background-color: black, 0.5;}
+		
 
 		
 
@@ -902,7 +902,7 @@
 				margin-top: 0;
 				padding-top: 0;
 			}
-    #main p {color: black;}
+    #main > section p {color: black;}
 
 
 
