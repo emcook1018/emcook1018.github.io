@@ -786,7 +786,8 @@
 /* Header */
 
 	#header {
-        background-image: url(images/header_1.jpg);
+        background-color: black;
+        background-image: url(/images/header_1.jpg);
 		background-attachment: scroll,								fixed;
 		background-position: top left,							top left;
 		background-repeat: no-repeat,								no-repeat;
@@ -813,7 +814,7 @@
 		}
 
 		#header h1 {
-			color: white;
+			color: rgba(255, 255, 255, 1.0);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
