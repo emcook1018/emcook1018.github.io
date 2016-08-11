@@ -25,7 +25,5 @@ dribbble_username:     # Replace this with your Dribbble username
 markdown: kramdown
 
 collections: 
-  - poetry:
-    output: true
-  - music:
+  poetry:
     output: true
