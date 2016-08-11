@@ -803,6 +803,7 @@
 	}
 
     }
+        #header p {color: white;}
 
 		#header strong, #header b {
 			color: #ffffff;
