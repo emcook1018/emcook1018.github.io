@@ -40,12 +40,12 @@
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		color: #990033;
+		color: #fff;
 		text-decoration: none;
 	}
 
 		a:hover {
-            color: #990033 !important;
+            color: yellow !important;
 			text-decoration: none;
 		}
 
@@ -210,6 +210,8 @@
 		font-size: 2em;
 	}
 
+
+
 /* Form */
 
 	form {
@@ -323,7 +325,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #a2a2a2;
+			color: #fff;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -337,7 +339,6 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -437,7 +438,6 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -785,7 +785,8 @@
 /* Header */
 
 	#header {
-		background-color: #1f1815;
+		background-image: url("headerimage.jpg");
+		background-color: #990033;
 		background-attachment: scroll,								fixed;
 		
 		background-position: top left,							top left;
@@ -1114,7 +1115,7 @@
 		}
 
 	ul {
-		list-style: none;
+		list-style-type: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}

@@ -1,10 +1,12 @@
 ---
-layout: default
+layout: post
 ---
 
-<div class="section">
+
 	{% for poetry in site.poetry %}
-		<h1><a href="{{ poetry.url }}">{{ poetry.title }}</a></h1>
+		<ul>
+			<li>
+				<a href="{{ poetry.url }}">{{ poetry.title }}</a>
+			</li>
 		</ul>
 	{% endfor %}
-</div>

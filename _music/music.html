@@ -1,0 +1,12 @@
+---
+layout: post
+---
+
+
+  {% for music in site.music %}
+    <ul>
+      <li>
+        <a href="{{ music.url }}">{{ music.title }}</a>
+      </li>
+    </ul>
+  {% endfor %}
