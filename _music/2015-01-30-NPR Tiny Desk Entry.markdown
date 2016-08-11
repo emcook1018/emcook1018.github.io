@@ -1,5 +1,4 @@
 ---
-title: Youtube video
 layout: post
 ---
 

@@ -34,20 +34,21 @@
 		line-height: 1.75em;
 	}
 
-	a {
+	 a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		color: #fff;
+		color: gray;
 		text-decoration: none;
 	}
 
-		a:hover {
-            color: yellow !important;
+	 a:hover {
 			text-decoration: none;
 		}
+
+
 
 	strong, b {
 		color: #787878;
@@ -180,7 +181,7 @@
 		text-align: center;
 	}
 
-	header p {
+	header p + a {
 		color: #b2b2b2;
 		position: relative;
 		margin: 0 0 1.5em 0;
@@ -822,6 +823,14 @@
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
+		}
+
+		#header a {color: white;
+
+		}
+
+		#header a:hover {color: yellow;
+
 		}
 
 /* Footer */
